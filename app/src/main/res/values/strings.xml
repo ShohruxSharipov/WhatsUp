@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WhatsApp</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_message">Message</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>
