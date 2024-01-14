@@ -132,7 +132,7 @@ class LogIn : ComponentActivity() {
                                                 user?.password
                                             )
                                         ) {
-                                            val intent = Intent(this@LogIn, Contacts::class.java)
+                                            val intent = Intent(this@LogIn, Password::class.java)
                                             startActivity(intent)
                                             FirebaseData.saveUser(this@LogIn, user1.username!!)
                                             finish()

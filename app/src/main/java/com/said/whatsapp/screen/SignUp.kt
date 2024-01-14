@@ -119,7 +119,7 @@ class SignUp : ComponentActivity() {
                             FirebaseData.saveUser(this@SignUp,user.username!!)
                             setUser(user)
 
-                            val intent = Intent(this@SignUp,Contacts::class.java)
+                            val intent = Intent(this@SignUp,Password::class.java)
                             intent.putExtra("uid",user.uid)
                             startActivity(intent)
                             finish()

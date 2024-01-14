@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.said.whatsapp.model.FirebaseData
 import com.said.whatsapp.screen.Contacts
 import com.said.whatsapp.screen.LogIn
+import com.said.whatsapp.screen.Password
 import com.said.whatsapp.screen.PersonalChat
 import com.said.whatsapp.ui.theme.WhatsAppTheme
 
@@ -28,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     if (FirebaseData.getSavedUser(this@MainActivity) != "") {
-                        val intent = Intent(this, Contacts::class.java)
+                        val intent = Intent(this, Password::class.java)
                         startActivity(intent)
                     } else {
                         val intent = Intent(this, LogIn::class.java)
